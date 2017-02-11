@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "lein cljsbuild once",
-    "watch": "lein cljsbuild auto"
+    "watch": "lein cljsbuild auto",
+    "figwheel": "lein figwheel"
   },
   "author": "",
   "license": "ISC"
