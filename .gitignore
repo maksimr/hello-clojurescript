@@ -1,4 +1,5 @@
 /resources/public/cljs
+/repl
 
 /target
 /classes

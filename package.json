@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "lein cljsbuild once",
-    "watch": "lein cljsbuild auto"
+    "watch": "lein cljsbuild auto",
+    "brepl": "lein trampoline cljsbuild repl-listen"
   },
   "author": "",
   "license": "ISC"

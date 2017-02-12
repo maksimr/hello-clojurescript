@@ -1,3 +1,9 @@
-(ns hello-browser.core)
+(ns hello-browser.core
+  (:require [clojure.browser.repl :as repl]))
 
-(.write js/document "<h1>Hello Browser</h1>")
+(defonce conn
+  (repl/connect "http://localhost:9000/repl"))
+
+(enable-console-print!)
+
+(println "Hello world!")
